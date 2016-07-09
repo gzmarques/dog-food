@@ -1,0 +1,205 @@
+/*
+-----------------------------
+Utils
+-----------------------------
+*/
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+/*
+-----------------------------
+Mainframe
+-----------------------------
+*/
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+#wrapper {
+    width: 90%;
+    margin: 5% auto;
+    background: white;
+    min-height: 90%;
+	position: relative;
+}
+
+#main {
+    padding: 5%;
+}
+
+/*
+-----------------------------
+Escolha
+-----------------------------
+*/
+
+select {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+/*
+-----------------------------
+Forms
+-----------------------------
+*/
+
+form {
+    padding: 0;
+    text-align: center;
+    font-size: 2em
+}
+
+form input {
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.2em;
+    width: 90%;
+}
+
+form button {
+    border: 1px solid #a8a8a8;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    padding: 10px;
+    font-size: 0.8em;
+    margin: 2%;
+}
+
+/*
+-----------------------------
+Div Result
+-----------------------------
+*/
+
+.result {
+    display: table;
+    font-size: 2em;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.total {
+    background: red;
+    display: block;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    font-size: 2em;
+}
+
+/*
+-----------------------------
+Meninas
+-----------------------------
+*/
+
+.dogs {
+    text-align: center;
+    padding: 1%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #dff0d8;
+    width: 15.6%; /*100%/5 - 2% margin - 2% padding*/
+    margin: 1%;
+}
+
+#Mel {
+
+}
+
+#Pepe {
+    
+}
+
+#Filó {
+
+}
+
+#Jurema {
+    
+}
+
+#Sula {
+    
+}
+
+#Frida {
+    
+}
+
+/*
+-----------------------------
+Responsive
+-----------------------------
+*/
+
+@media screen and (max-width: 959px) {
+    
+    .dogs {
+        width: 20.6%;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    
+    .dogs {
+        width: 28%;
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    
+    .dogs {
+        font-size: 0.7em;
+        width: 45%;
+    }
+    
+}
+
+@media screen and (max-width: 359px) {
+    
+    .dogs {
+        width: 95%;
+    }
+    
+}
